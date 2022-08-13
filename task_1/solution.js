@@ -31,7 +31,8 @@ function addInCartCountChange(value) {
     // увеличьте значение newValue на 1
 
     // Конец решения задания №1.2.
-
+    newValue = oldValue;
+    newValue = newValue + 1;
     return newValue;
 }
 
