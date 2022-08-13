@@ -47,7 +47,9 @@ function addInCartSumChange(sum, delta) {
     // замените склеивание, используемое в newSum Text на шаблонную строку
 
     // Конец решения задания №1.3.
-
+    newSum = oldSum + difference;
+    newSumText = newSum + ' ₽';
+    
     return newSumText;
 }
 
