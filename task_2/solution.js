@@ -46,6 +46,15 @@ function calcDiscount(sum, min, discount) {
 
     // Конец решения задания №2.2.
 
+    let discountSum;
+    let discountProcent;
+    if(productsSum >= discountMinSum) {
+        discountProcent = discountPart / productsSum;
+        discountSum = discountProcent;
+       }else {
+        discountSum = 0;
+       }
+
     return discountSum;
 }
 
