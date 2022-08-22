@@ -21,8 +21,8 @@ function parseProducts(json) {
 // и выполняете addProduct с каждым элементом массива products (передавая элемент массива как аргумент)
 function renderProductsCards(json) {
     clearProducts();
-    products = parseProducts(json);
-    length = products.length;
+    let products = parseProducts(json);
+    let length = products.length;
     for (let i = 0; i < length; i += 1) {
         addProduct(products[i]);
      }
