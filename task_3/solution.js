@@ -25,14 +25,7 @@ function renderCartItem(item) {
 
     // Конец решения задания №3.1.
    
-//   let sum = product.count*product.price; 
-//   let itemCountText = ``;    
-//   itemCountText = itemCountText + product.count;
-//   itemCountText = itemCountText +  ` x `;
-//   itemCountText = itemCountText + product.price;
-//  itemCountText = itemCountText + ` ₽ = `;
-//   itemCountText = itemCountText + sum;
-//   itemCountText = itemCountText + ` ₽ `;
+
 
 let sum = product.count*product.price;
 let itemCountText = ``;
